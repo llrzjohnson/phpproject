@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Morphext Example / Demo</title>
+        <meta name="description" content="A simple, high-performance and cross-browser jQuery rotating / carousel plugin for text phrases powered by Animate.css.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="dist/animate.css">
+        <link rel="stylesheet" href="dist/morphext.css">
+    </head>
+    <body>
+        <div style="text-align:center">
+         <h1> I am a <span id="js-rotating">So Simple, Very Doge, Much Wow, Such Cool</span> Text Rotator</h1>
+        </div>
+
+        <script src="//https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"><\/script>')</script>
+        <script src="dist/morphext.js"></script>
+        <script>
+         $("#js-rotating").Morphext({
+    // The [in] animation type. Refer to Animate.css for a list of available animations.
+    animation: "bounceIn",
+    // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+    separator: ",",
+    // The delay between the changing of each phrase in milliseconds.
+    speed: 2000,
+    complete: function () {
+        // Called after the entrance animation is executed.
+    }
+});
+        </script>
+		
+		
+		
+		
+		
+		
+    </body>
+</html>

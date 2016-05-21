@@ -1,0 +1,18 @@
+<svg width="160" height="66" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="68" width="162" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text font-weight="bold" stroke="#000" transform="matrix(3.692177219861605,0,0,5.59442571989905,-184.42078137079466,-499.03214733614) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_1" y="125.5" x="67" stroke-width="0" fill="#ffffff">iDesign</text>
+  <g id="svg_9">
+   <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="40" id="svg_7" y="35.5" x="6.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">iDesign</text>
+   <text stroke="#000" transform="matrix(0.8060116171836853,0,0,0.7749999761581421,3.006819933652878,6.41250067949295) " xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="30" id="svg_8" y="67.241936" x="8.055939" stroke-opacity="null" stroke-width="0" fill="#ffffff">everyday</text>
+  </g>
+ </g>
+</svg>
