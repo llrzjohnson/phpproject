@@ -26,7 +26,7 @@
             <a class="logo" title="That Net" href="http://www.google.com" target="_blank"><span>That Net Design</span></a>
             <div class="hero">
                 <h1>Add <span id="js-rotating">fun, art, style, life</span> with coding and design</h1>
-                <a class="btn" title="Let's start creating websites" href="canvas.html">Let's start<span> creating websites</span></a>
+                <a class="btn" title="Let's start creating websites" href="canvas.php">Let's start<span> creating websites</span></a>
                 <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"><\/script>')</script>
         <script src="dist/morphext.js"></script>
         <script>
@@ -124,19 +124,19 @@
                     <a title="Home" href="#" aria-haspopup="true">Home</a>
                 </li>
                   <li>
-                    <a title="About Me" href="about.html" aria-haspopup="true">About Me</a>
+                    <a title="About Me" href="about.php" aria-haspopup="true">About Me</a>
                     
                 </li>
                                     
                 <li>
-                    <a title="Portfolio" href="portfolio.html" aria-haspopup="true">Portfolio</a>
+                    <a title="Portfolio" href="portfolio.php" aria-haspopup="true">Portfolio</a>
                     
                 </li>
                 <li>
-                    <a title="Contact Me" href="contact.html">Canvas</a>
+                    <a title="Contact Me" href="contact.php">Canvas</a>
                 </li>
                 <li>
-                    <a title="Canvas" href="canvas.html">Contact Me</a>
+                    <a title="Canvas" href="canvas.php">Contact Me</a>
                 </li>
             </ul>
 

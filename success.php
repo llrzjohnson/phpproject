@@ -12,7 +12,7 @@
 
     <div id="page">
         <header>
-            <a class="logo" title="That Net" href="default.html" target="_blank"><span>That Net Design</span></a>
+            <a class="logo" title="That Net" href="default.php" target="_blank"><span>That Net Design</span></a>
             <div class="hero">
                 <h1>Add interest with coding and design</h1>
                 <a class="btn" title="Let's start creating websites" href="#">Let's start<span> creating websites</span></a>
@@ -65,18 +65,18 @@
         <nav>
             <ul>
                 <li>
-                    <a title="Home" href="default.html" aria-haspopup="true">Home</a>
+                    <a title="Home" href="default.php" aria-haspopup="true">Home</a>
                 </li>
                 <li>
-                    <a title="About Me" href="about.html" aria-haspopup="true">About Me</a>
+                    <a title="About Me" href="about.php" aria-haspopup="true">About Me</a>
 
                 </li>
                 <li>
-                    <a title="Services" href="canvas.html" aria-haspopup="true">Services</a>
+                    <a title="Services" href="canvas.php" aria-haspopup="true">Services</a>
 
                 </li>
                 <li>
-                    <a title="Contact Us" href="contact.html">Contact Me</a>
+                    <a title="Contact Us" href="contact.php">Contact Me</a>
                 </li>
             </ul>
 
