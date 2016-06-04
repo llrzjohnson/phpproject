@@ -1,25 +1,22 @@
 <?php require('includes/config.php'); 
+
 //if not logged in redirect to login page
 if(!$user->is_logged_in()){ header('Location: login.php'); } 
 ?>
 <?php
 include_once 'db/dbconfig.php';
 ?>
-<?php include_once 'header.php'; ?>
+<?php include_once 'includes/header.php'; ?>
 
 <div class="clearfix"></div>
 
 <div class="container">
-<h1>iDesign Members Page</h1>
-<br />
-<br />
 <a href="includes/add-data.php" class="btn btn-large btn-info"><i class="glyphicon glyphicon-plus"></i> &nbsp; Add Records</a>
 </div>
 
 <div class="clearfix"></div><br />
 
 <div class="container">
-
 	 <table class='table table-bordered table-responsive'>
      <tr>
      <th>#</th>
@@ -31,7 +28,7 @@ include_once 'db/dbconfig.php';
      </tr>
      <?php
 		$query = "SELECT * FROM tbl_users";       
-		$records_per_page=10;
+		$records_per_page=3;
 		$newquery = $crud->paging($query,$records_per_page);
 		$crud->dataview($newquery);
 	 ?>
@@ -50,4 +47,4 @@ include_once 'db/dbconfig.php';
        
 </div>
 
-<?php include_once 'footer.php'; ?>
+<?php include_once 'includes/footer.php'; ?>

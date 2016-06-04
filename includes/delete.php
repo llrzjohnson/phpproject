@@ -17,9 +17,7 @@ if(isset($_POST['btn-del']))
 <div class="clearfix"></div>
 
 <div class="container">
-<h1>iDesign Members Page - Delete Record</h1>
-				<br />
-				<br />
+
 	<?php
 	if(isset($_GET['deleted']))
 	{

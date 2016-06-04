@@ -21,7 +21,7 @@ if(isset($_POST['btn-save']))
 //define page title
 $title = 'Add Data';//define page title
 ?>
-<?php include_once '../header.php'; ?>
+<?php include_once 'header.php'; ?>
 
 
 <div class="clearfix"></div>
@@ -52,9 +52,8 @@ else if(isset($_GET['failure']))
 <div class="clearfix"></div><br />
 
 <div class="container">
-<h1>iDesign Members Page - Add Record</h1>
-				<br />
-				<br /> 	
+
+ 	
 	 <form method='post'>
  
     <table class='table table-bordered'>
@@ -92,6 +91,4 @@ else if(isset($_GET['failure']))
      
      
 </div>
-<script src="../lib/jquery-1.7.2.js"></script>
-<script src="../dist/jquery.masked-input.js"></script>
-<?php include_once '../footer.php'; ?>
+<?php include_once 'footer.php'; ?>
