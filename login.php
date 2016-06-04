@@ -1,9 +1,9 @@
-﻿<?php
+<?php
 //include config
 require_once('includes/config.php');
 
 //check if already logged in move to home page
-if( $user->is_logged_in() ){ header('Location: admin.php'); } 
+if( $user->is_logged_in() ){ header('Location: index.php'); } 
 
 //process login form if submitted
 if(isset($_POST['submit'])){
@@ -23,7 +23,7 @@ if(isset($_POST['submit'])){
 }//end if submit
 
 //define page title
-//$title = 'Login';
+$title = 'Login';
 
 //include header template
 //require('header.php'); 
@@ -75,15 +75,17 @@ if(isset($_POST['submit'])){
 
         <section class="canvas">
 
-<!-- INSERT HERE -->		
-	<div class="container">
+<!-- INSERT START HERE -->		
+		
+  
+<div class="container">
 
 	<div class="row">
 
 	    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 			<form role="form" method="post" action="" autocomplete="off">
 				<h2>Please Login</h2>
-				<p><a href='admin.php'>Back to home page</a></p>
+				<p><a href='./'>Back to home page</a></p>
 				<hr>
 
 				<?php
@@ -135,13 +137,10 @@ if(isset($_POST['submit'])){
 			</form>
 		</div>
 	</div>
-
-
-
 </div>
- 
- <!-- INSERT HERE -->
- 
+
+ <!-- INSERT END HERE -->
+
         </section>
 		
 <div style="padding-bottom: 1em;"> 
@@ -172,41 +171,21 @@ if(isset($_POST['submit'])){
 
         </section>
 
-        <nav>
-            <ul>
-                <li>
-                    <a title="Home" href="default.php" aria-haspopup="true">Home</a>
-                </li>
-                <li>
-                    <a title="About Me" href="about.php" aria-haspopup="true">About Me</a>
-
-                </li>
-
-                <li>
-                    <a title="Portfolio" href="portfolio.php" aria-haspopup="true">Portfolio</a>
-
-                </li>
-                <li>
-                    <a title="Canvas" href="#">Canvas</a>
-                </li>
-                <li>
-                    <a title="Contact Us" href="contact.php">Contact Me</a>
-                </li>
-                
-            </ul>
-
-        </nav>
+       <!-- NAVIGATION -->
+        <?php require('navigation.php'); ?>
+		<!-- NAVIGATION -->
 
         <footer>
 
 <!----------imported ------>
-		
+<!--		
 		<div class="container">
 	<div class="alert alert-info">
 	<p>Member only page - Welcome <?php echo $_SESSION['username']; ?></p>
     
 	</div>
 </div>
+-->
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="lib/jquery-1.7.2.js"></script>
 <script src="dist/jquery.masked-input.js"></script>

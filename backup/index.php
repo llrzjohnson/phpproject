@@ -117,40 +117,8 @@
             </blockquote>
 
         </section>
-
-        <nav>
-            <ul>
-                <li>
-                    <a title="Home" href="#" aria-haspopup="true">Home</a>
-                </li>
-                  <li>
-                    <a title="About Me" href="about.php" aria-haspopup="true">About Me</a>
-                    
-                </li>
-                                    
-                <li>
-                    <a title="Portfolio" href="portfolio.php" aria-haspopup="true">Portfolio</a>
-                    
-                </li>
-                <li>
-                    <a title="Contact Me" href="contact.php">Canvas</a>
-                </li>
-                <li>
-                    <a title="Canvas" href="canvas.php">Contact Me</a>
-                </li>
-            </ul>
-
-        </nav>
-
-        <footer>
-
-            &copy; L. Lester Johnson 2016
-            <div class="content">
-                <a title="Privacy Policy" href="#">Privacy Policy</a>
-                <a title="Terms of Service" href="#">Terms of Service</a>
-            </div>
-        </footer>
-
-    </div>
+		<?php include('navigation.php');?>
+		<?php include('footer.php');?>
+		</div>
 </body>
 </html>

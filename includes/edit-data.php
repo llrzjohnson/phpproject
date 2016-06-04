@@ -11,7 +11,7 @@ if(isset($_POST['btn-update']))
 	if($crud->update($id,$fname,$lname,$email,$contact))
 	{
 		$msg = "<div class='alert alert-info'>
-				<strong>WOW!</strong> Record was updated successfully <a href='../admin.php'>HOME</a>!
+				<strong>WOW!</strong> Record was updated successfully <a href='../index.php'>HOME</a>!
 				</div>";
 	}
 	else
@@ -27,7 +27,6 @@ if(isset($_GET['edit_id']))
 	$id = $_GET['edit_id'];
 	extract($crud->getID($id));	
 }
-
 ?>
 <?php include_once '../header.php'; ?>
 
@@ -45,7 +44,9 @@ if(isset($msg))
 <div class="clearfix"></div><br />
 
 <div class="container">
-	 
+<h1>iDesign Members Page - Update Record</h1>
+				<br />
+				<br />	 
      <form method='post'>
  
     <table class='table table-bordered'>
@@ -75,7 +76,7 @@ if(isset($msg))
                 <button type="submit" class="btn btn-primary" name="btn-update">
     			<span class="glyphicon glyphicon-edit"></span>  Update this Record
 				</button>
-                <a href="../admin.php" class="btn btn-large btn-success"><i class="glyphicon glyphicon-backward"></i> &nbsp; CANCEL</a>
+                <a href="../index.php" class="btn btn-large btn-success"><i class="glyphicon glyphicon-backward"></i> &nbsp; CANCEL</a>
             </td>
         </tr>
  

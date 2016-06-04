@@ -1,19 +1,18 @@
 <?php
-ob_start();
 session_start();
-
+ob_start();
 //set timezone
 date_default_timezone_set('Canada/Eastern');
 
 //database credentials
 define('DBHOST','localhost');
-define('DBUSER','admin');
-define('DBPASS','password');
-define('DBNAME','phpproject');
+define('DBUSER','nndesi5_lesterad');
+define('DBPASS','L3ster11');
+define('DBNAME','nndesi5_phpproject');
 
 //application address
-define('DIR','http://127.0.0.1/phpProject/');
-define('SITEEMAIL','noreply@domain.com');
+define('DIR','http://phpproject.5ndesign.com/');
+define('SITEEMAIL','shuai.jan28gmail.com');
 
 try {
 

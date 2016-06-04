@@ -13,8 +13,8 @@
     <div class="container">
  
         <div class="navbar-header">
-            <a class="navbar-brand" href="http://lesterjquery.azurewebsites.net/default.html">iDesign Membership</a>
-    	
+			  	
+            <a class="navbar-brand" href="http://www.5ndesign.com/">iDesign</a>    	
         </div>
      </div>
 </div>

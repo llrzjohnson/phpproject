@@ -32,7 +32,7 @@ if(isset($_GET['inserted']))
 	?>
     <div class="container">
 	<div class="alert alert-info">
-    <strong>WOW!</strong> Record was inserted successfully <a href="../admin.php">HOME</a>!
+    <strong>WOW!</strong> Record was inserted successfully <a href="../index.php">HOME</a>!
 	</div>
 	</div>
     <?php
@@ -52,8 +52,9 @@ else if(isset($_GET['failure']))
 <div class="clearfix"></div><br />
 
 <div class="container">
-
- 	
+<h1>iDesign Members Page - Add Record</h1>
+				<br />
+				<br /> 	
 	 <form method='post'>
  
     <table class='table table-bordered'>
@@ -82,7 +83,7 @@ else if(isset($_GET['failure']))
             <button type="submit" class="btn btn-primary" name="btn-save">
     		<span class="glyphicon glyphicon-plus"></span> Create New Record
 			</button>  
-            <a href="../admin.php" class="btn btn-large btn-success"><i class="glyphicon glyphicon-backward"></i> &nbsp; Back to index</a>
+            <a href="../index.php" class="btn btn-large btn-success"><i class="glyphicon glyphicon-backward"></i> &nbsp; Back to index</a>
             </td>
         </tr>
  
